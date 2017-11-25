@@ -9,10 +9,7 @@ galaxy_info:
   github_branch: master
 
   platforms:
-   - name: RHEL
-     versions:
-     - 7.x
-   - name: CentOS
+  - name: EL
      versions:
      - 7.x
 
