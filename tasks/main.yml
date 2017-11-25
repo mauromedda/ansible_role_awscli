@@ -1,6 +1,6 @@
 ---
 # tasks file for ansible_role_awscli
-- name: AWSCLI | Install awscli from using Python PIP
+- name: AWSCLI | Install awscli using Python PIP
   pip:
     name: awscli
     state: present

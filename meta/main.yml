@@ -19,4 +19,4 @@ galaxy_info:
   galaxy_tags: [ 'AWS', 'EL', 'awscli' ]
 
 dependencies:
- - mauromedda.ansible_role_pip
+ - { role: mauromedda.ansible_role_pip }
