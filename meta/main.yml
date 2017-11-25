@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Mauro Medda
+  description: The role install the AWS Command Line interface
+
+  license: BSD
+
+  min_ansible_version: 2.2
+
+  github_branch: master
+
+  platforms:
+   - name: RHEL
+     versions:
+     - 7.x
+   - name: CentOS
+     versions:
+     - 7.x
+
+  galaxy_tags: [ 'AWS', 'EL', 'awscli' ]
+
+dependencies:
+ - ansible_role_pip
