@@ -13,6 +13,7 @@ The role installs the AWS CLI using Python PIP
 
 ### Dependencies
 
+  - mauromedda.ansible_role_epel
   - mauromedda.ansible_role_pip
 
 ### Usage
